@@ -4,6 +4,7 @@
 
 <p>O COVID-19 Radar é um app de monitoramento ilustrado por indicadores e gráficos. O mesmo acompanha o crescimento atualizado e acumulado de casos confirmados e óbitos causados pelo Coronavírus em cada Estado e cidade do Brasil.</>
     
-![](gif2.gif)  ![](gif3.gif)  ![](gif1.gif)
-
  ![](telas.png)
+ 
+ ![](gif2.gif)  ![](gif3.gif)  ![](gif1.gif)
+
