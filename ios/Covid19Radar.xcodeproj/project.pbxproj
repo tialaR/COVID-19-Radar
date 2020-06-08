@@ -148,7 +148,6 @@
 				DAF0B678BB737FA144E18839 /* Pods-Covid19Radar-tvOSTests.debug.xcconfig */,
 				9B300D84FF03C43647480E04 /* Pods-Covid19Radar-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
