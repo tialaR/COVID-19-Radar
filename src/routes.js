@@ -2,7 +2,9 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
+import { View } from 'react-native';
 import Main from './pages/Main';
+import { HeaderImage, HeaderTitle } from './styles/styles';
 // import NewsScreen from './pages/NewsScreen';
 import { states } from './utils/arrays';
 import { colors } from './utils/colors';
@@ -13,6 +15,15 @@ const Tab = createMaterialTopTabNavigator();
 const statesAux = states.sort((a, b) => {
   return a.key < b.key ? -1 : a.key > b.key ? 1 : 0;
 });
+
+function LogoTitle() {
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+      <HeaderImage />
+      <HeaderTitle>COVID-19 Radar</HeaderTitle>
+    </View>
+  );
+}
 
 function Tabs() {
   return (
@@ -46,6 +57,7 @@ function Routes() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
+          headerTitle: () => <LogoTitle />,
           headerTintColor: colors.white,
           headerStyle: {
             elevation: 0,
