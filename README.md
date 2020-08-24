@@ -2,7 +2,8 @@
 
 <h4>JavaScrip | React Native</h4>
 
-<p>O COVID-19 Radar é um app de monitoramento ilustrado por indicadores e gráficos. O mesmo acompanha o crescimento atualizado e acumulado de casos confirmados e óbitos causados pelo Coronavírus em cada Estado e cidade do Brasil.</>
+<p>COVID-19 Radar is a monitoring app illustrated by indicators and graphs. It follows the updated and accumulated growth of confirmed cases and deaths caused by the Coronavirus in each state and city in Brazil.
+</>
     
  ![](telas.png)
  
